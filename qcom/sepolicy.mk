@@ -17,7 +17,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/legion/sepolicy/qcom/dynamic \
     device/legion/sepolicy/qcom/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/legion/sepolicy/qcom/dynamic \
     device/legion/sepolicy/qcom/vendor
 endif
